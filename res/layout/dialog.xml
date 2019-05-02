@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+		 >
+
+  
+    <TextView
+        android:id="@+id/applecoun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applecoun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button"
+        android:text="@string/exit_button"
+        android:textSize="30sp" />
+  
+</RelativeLayout>
